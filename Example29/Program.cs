@@ -27,6 +27,8 @@ foreach (var item in text)
 {
     System.Console.Write(item + ", ");
 }
-
+int origRow = Console.CursorTop;
+int origCol = Console.CursorLeft;
+Console.SetCursorPosition(origCol - 2, origRow);
 System.Console.WriteLine("]");
 
