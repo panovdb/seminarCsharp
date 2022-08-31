@@ -1,0 +1,15 @@
+D:\YandexDisk\_project\Csharp\seminar\Example25\bin\Debug\net6.0\Example25.exe
+D:\YandexDisk\_project\Csharp\seminar\Example25\bin\Debug\net6.0\Example25.deps.json
+D:\YandexDisk\_project\Csharp\seminar\Example25\bin\Debug\net6.0\Example25.runtimeconfig.json
+D:\YandexDisk\_project\Csharp\seminar\Example25\bin\Debug\net6.0\Example25.dll
+D:\YandexDisk\_project\Csharp\seminar\Example25\bin\Debug\net6.0\Example25.pdb
+D:\YandexDisk\_project\Csharp\seminar\Example25\obj\Debug\net6.0\Example25.csproj.AssemblyReference.cache
+D:\YandexDisk\_project\Csharp\seminar\Example25\obj\Debug\net6.0\Example25.GeneratedMSBuildEditorConfig.editorconfig
+D:\YandexDisk\_project\Csharp\seminar\Example25\obj\Debug\net6.0\Example25.AssemblyInfoInputs.cache
+D:\YandexDisk\_project\Csharp\seminar\Example25\obj\Debug\net6.0\Example25.AssemblyInfo.cs
+D:\YandexDisk\_project\Csharp\seminar\Example25\obj\Debug\net6.0\Example25.csproj.CoreCompileInputs.cache
+D:\YandexDisk\_project\Csharp\seminar\Example25\obj\Debug\net6.0\Example25.dll
+D:\YandexDisk\_project\Csharp\seminar\Example25\obj\Debug\net6.0\refint\Example25.dll
+D:\YandexDisk\_project\Csharp\seminar\Example25\obj\Debug\net6.0\Example25.pdb
+D:\YandexDisk\_project\Csharp\seminar\Example25\obj\Debug\net6.0\Example25.genruntimeconfig.cache
+D:\YandexDisk\_project\Csharp\seminar\Example25\obj\Debug\net6.0\ref\Example25.dll
