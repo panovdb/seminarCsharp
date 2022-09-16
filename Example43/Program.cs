@@ -14,7 +14,7 @@ double k2 = Convert.ToDouble(Console.ReadLine());
 
 double[] point = new double[2];
 
-if ((k1 == k2) && (b1 == b2)) System.Console.WriteLine("Прямые идентичны");
+if ((k1 == k2) & (b1 == b2)) System.Console.WriteLine("Прямые идентичны");
 else if (k1 == k2) System.Console.WriteLine("Прямые параллельны");
 else point = CrossLine(b1, k1, b2, k2);
 
