@@ -37,3 +37,4 @@ void PrintArray(double[] array)
     Console.SetCursorPosition(origCol - 2, origRow);
     System.Console.Write("]");
 }
+
