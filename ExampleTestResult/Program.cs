@@ -18,7 +18,7 @@
 */
 
 
-string[] array1 = { "hello", "2", "world", "Yes"};
+string[] array1 = { "hello", "2", "world", ":-)"};
 string[] array2 = { "1234", "1567", "-2", "computer science" };
 string[] array3 = { "Russia", "Denmark", "Kazan" };
 const int maxSimbols = 3;
