@@ -6,30 +6,16 @@ M = 1; N = 5. -> ""1, 2, 3, 4, 5""
 M = 4; N = 8. -> ""4, 6, 7, 8""
 */
 
-int m = 5;
-int n = 1;
-int start = m;
-int finish = n;
-if (start > finish)
-{
-    int temp = finish;
-    finish = start;
-    start = temp;
-}
+int start = 8;
+int finish = 2;
+
 PrintNaturalInt(start, finish);
 
 void PrintNaturalInt(int start, int finish)
 {
-
     if (start <= finish)
     {
         System.Console.Write(start + " ");
         PrintNaturalInt(start + 1, finish);
-
-        //PrintNaturalInt(start, finish + 1);
-        //System.Console.Write(finish + " ");
     }
-
-
-
 }

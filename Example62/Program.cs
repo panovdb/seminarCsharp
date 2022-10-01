@@ -6,27 +6,32 @@
 11 16 15 06
 10 09 08 07
 */
-int n = 4;
+
+int n = 9;
 int min = 10;
-int[,] array = new int[n, n];
 
+PrintMatrix(FillMatrixCircle(n, min));
 
-int i = 0, j = 0;
-
-while (n != 0)
+int[,] FillMatrixCircle(int n, int min)
 {
-    int k = 0;
-    do { array[i, j++] = min++; } while (++k < n - 1);
-    for (k = 0; k < n - 1; k++) array[i++, j] = min++;
-    for (k = 0; k < n - 1; k++) array[i, j--] = min++;
-    for (k = 0; k < n - 1; k++) array[i--, j] = min++;
+    int[,] array = new int[n, n];
+    int i = 0, j = 0;
+    while (n != 0)
+    {
+        int k = 0;
+        do { array[i, j++] = min++; } while (++k < n - 1);
+        for (k = 0; k < n - 1; k++) array[i++, j] = min++;
+        for (k = 0; k < n - 1; k++) array[i, j--] = min++;
+        for (k = 0; k < n - 1; k++) array[i--, j] = min++;
 
-    ++i; ++j;
-    if (n < 2) n = 0;
-    else n = n - 2;
+        ++i; ++j;
+        if (n < 2) n = 0;
+        else n = n - 2;
+    }
+    return array;
 }
 
-PrintMatrix(array);
+
 
 void PrintMatrix(int[,] matrix)
 {
@@ -40,4 +45,3 @@ void PrintMatrix(int[,] matrix)
         System.Console.WriteLine("]");
     }
 }
-

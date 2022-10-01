@@ -11,7 +11,6 @@ System.Console.WriteLine($"m = {m}, n = {n} -> A(m,n) = {Akkerman(m, n)}");
 
 int Akkerman(int m, int n)
 {
-
     if (m == 0)  return n + 1;
     else if ((m > 0) && (n == 0))
         return Akkerman(m - 1, 1);
